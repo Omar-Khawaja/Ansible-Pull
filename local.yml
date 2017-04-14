@@ -1,0 +1,8 @@
+---
+
+- name: Install Jenkins
+  hosts: localhost
+  user: root
+
+  roles:
+    - install_jenkins
